@@ -37,7 +37,7 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://com
 
 ## Usage
 
-**Option one:** _(Recommended)_
+### **Option one:** _(Recommended)_
   - Follow the commands below to be able to run multiple scripts
 
 **_Check the current execution policy_**
@@ -59,7 +59,7 @@ cd "C:\path\to\script"
 .\Script.ps1 # optionally add arguments as required by the script ex. .\Script.ps1 -Argument1 "Value1" -Argument2 "Value2"
 ```
 
-**Option two:** _(Single script)_
+### **Option two:** _(Single script)_
   - Run the script from the command line (this will not change the execution policy)
 
 **_Run the script from the command line, bypassing the execution policy_**
