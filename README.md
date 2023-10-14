@@ -7,6 +7,7 @@
 - [Usage](#usage)
   - [Option one: _(Recommended)_](#option-one-recommended)
   - [Option two: _(Single script)_](#option-two-single-script)
+- [Folder Descriptions](#folder-descriptions)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -70,6 +71,69 @@ cd "C:\path\to\script"
 Start-Process PowerShell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File C:\Path\To\Your\Script.ps1"
 ```
 
+## Folder Descriptions
+
+[ACTIVE_DIRECTORY](ACTIVE_DIRECTORY/)
+
+- Scripts for managing Active Directory
+  - These scripts are meant to keep track of users and their attributes, or modify them in AD or Azure
+
+[CHOCOLATEY](CHOCOLATEY/)
+
+- Scripts for installing and uninstalling software using Chocolatey
+  - I will also be working on building more of my own packages
+
+[FILE_MANAGEMENT](FILE_MANAGEMENT/)
+
+- Scripts for managing files and folders
+  - These scripts are meant to keep track of files and folders, or modify them such as copying, moving, or deleting them
+
+[NETWORKING](NETWORKING/)
+
+- Scripts for managing network settings
+  - These scripts are meant to keep track of network settings, or modify them such as changing the DNS server or IP address
+  - There are also various other scripts for troubleshooting network issues
+
+[INSTALLERS](INSTALLERS/)
+
+- Scripts for installing software
+  - These scripts are meant to install software that is not available through Chocolatey
+
+[UNINSTALLERS](UNINSTALLERS/)
+
+- Scripts for uninstalling software
+  - These scripts are meant to uninstall software that is not available through Chocolatey
+  - there are also various other scripts due to some clients not having things installed through Chocolatey
+
+[ONBOARDING](ONBOARDING/)
+
+- Various scripts for my job as an onboarding analyst
+  - These scripts are meant to automate the process of onboarding a new company/client
+  - there are also various other scripts for troubleshooting issues that may arise during the onboarding process
+
+[QUICK_FIXES](QUICK_FIXES/)
+
+- Various scripts for quick fixes
+  - These scripts are meant to fix various issues that may arise on a machine
+  - These scripts are meant to be run on a single machine, not multiple machines at once  
+
+[REGISTRY](REGISTRY/)
+
+- Scripts for managing the registry
+  - These scripts are meant to keep track of registry keys, or modify them such as adding or removing them
+  - These are meant to automate and simplify the process of regedits that consistently need to be done
+
+[VC3_CLIENT_SPECIFIC](VC3_CLIENT_SPECIFIC/)
+
+- Various scripts for apps that are specific to VC3 clients
+  - These scripts are meant to automate the process of installing and uninstalling apps that are specific to VC3 clients
+  - The main purpose is to keep apps that i don't automate things for as often separate from the main scripts
+
+[WORKSTATION_CONFIGURATION](WORKSTATION_CONFIGURATION/)
+- Scripts for configuring workstations
+  - These scripts are meant to automate the process of configuring a new workstation
+  - These scripts are more so meant to have their functions used in other scripts, but can be run on their own if desired
+
 ## Contributing
 
 To contribute to Windows_Automation, follow these steps:
@@ -84,4 +148,3 @@ This collection of scripts is licensed under the [MIT License](LICENSE).
 
 -[Back to top](#windows_automation)-
 
-[ACTIVE_DIRECTORY](ACTIVE_DIRECTORY/)
