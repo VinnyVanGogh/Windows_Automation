@@ -55,7 +55,7 @@ Set-ExecutionPolicy RemoteSigned
 **_Run the script_**
 
 ```shell
-cd "C:\path\to\script\"
+cd "C:\path\to\script"
 .\Script.ps1 # optionally add arguments as required by the script ex. .\Script.ps1 -Argument1 "Value1" -Argument2 "Value2"
 ```
 
