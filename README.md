@@ -5,6 +5,8 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Option one: _(Recommended)_](#option-one-recommended)
+  - [Option two: _(Single script)_](#option-two-single-script)
 - [Contributing](#contributing)
 - [License](#license)
 
