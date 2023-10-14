@@ -123,12 +123,6 @@ Start-Process PowerShell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File
   - These scripts are meant to keep track of registry keys, or modify them such as adding or removing them
   - These are meant to automate and simplify the process of regedits that consistently need to be done
 
-[VC3_CLIENT_SPECIFIC](VC3_CLIENT_SPECIFIC/)
-
-- Various scripts for apps that are specific to VC3 clients
-  - These scripts are meant to automate the process of installing and uninstalling apps that are specific to VC3 clients
-  - The main purpose is to keep apps that i don't automate things for as often separate from the main scripts
-
 [WORKSTATION_CONFIGURATION](WORKSTATION_CONFIGURATION/)
 - Scripts for configuring workstations
   - These scripts are meant to automate the process of configuring a new workstation
