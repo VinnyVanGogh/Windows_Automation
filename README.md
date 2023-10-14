@@ -82,5 +82,4 @@ To contribute to Windows_Automation, follow these steps:
 
 This collection of scripts is licensed under the [MIT License](LICENSE).
 
-
-
+-[Back to top](#table-of-contents)-
