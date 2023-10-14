@@ -1,0 +1,9 @@
+# To ignore a directory, append a / at the end
+# Example: videos/
+# To ignore a file or directory without a specific pattern, don't append a /
+# Example: .venv*
+.venv*
+videos/
+*.log
+
+
