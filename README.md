@@ -10,123 +10,75 @@
 
 ## Prerequisites
 
-## Description
-
-## Installation
-
-## Usage
-
-## Contributing
-
-## License
-
-# Windows_Automation
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Prerequisites
+Before you begin, ensure you have met the following requirements:
+* You have installed the latest version of `PowerShell`
+* You have a `Windows` machine.
+* Optional: You have installed the latest version of `Chocolatey`
 
 ## Description
 
-## Installation
-
-## Usage
-
-## Contributing
-
-## License
-
-# Windows_Automation
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Prerequisites
-
-## Description
+A collection of scripts I've made to automate various tasks on Windows. These scripts vary from setting up a new machine or user to troubleshooting various issues. 
 
 ## Installation
 
-## Usage
+1. Clone the repository
 
-## Contributing
+```shell
+git clone https://github.com/VinnyVanGogh/Windows_Automation.git
+```
 
-## License
+2. Install Chocolatey (optional)
 
-# Windows_Automation
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Prerequisites
-
-## Description
-
-## Installation
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ## Usage
 
-## Contributing
+Option one:
+  - Follow the commands below to be able to run multiple scripts
 
-## License
+**Check the current execution policy**
 
-# Windows_Automation
-## Table of Contents
+```powershell
+Get-ExecutionPolicy
+```
 
-- [Prerequisites](#prerequisites)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+**Set the execution policy to remote signed**
 
-## Prerequisites
+```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
-## Description
+**Run the script**
 
-## Installation
+```shell
+cd "C:\path\to\script\"
+.\Script.ps1 # optionally add arguments as required by the script ex. .\Script.ps1 -Argument1 "Value1" -Argument2 "Value2"
+```
 
-## Usage
+Option two:
+  - Run the script from the command line (this will not change the execution policy)
 
-## Contributing
+**Run the script from the command line, bypassing the execution policy**
 
-## License
-
-# Windows_Automation
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Prerequisites
-
-## Description
-
-## Installation
-
-## Usage
+```powershell
+Start-Process PowerShell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File C:\Path\To\Your\Script.ps1"
+```
 
 ## Contributing
 
+To contribute to Windows_Automation, follow these steps:
+1. Fork this repository.
+2. Create a branch: \`git checkout -b <branch_name>\`.
+3. Make your changes and commit them: \`git commit -m '<commit_message>'\`
+4. Send a message detailing the branch you've created and the changes you've made.
+
 ## License
+
+This collection of scripts is licensed under the [MIT License](LICENSE).
+
+
 
