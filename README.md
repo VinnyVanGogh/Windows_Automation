@@ -37,32 +37,32 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://com
 
 ## Usage
 
-Option one:
+**Option one:** _(Recommended)_
   - Follow the commands below to be able to run multiple scripts
 
-**Check the current execution policy**
+**_Check the current execution policy_**
 
 ```powershell
 Get-ExecutionPolicy
 ```
 
-**Set the execution policy to remote signed**
+**_Set the execution policy to remote signed_**
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
-**Run the script**
+**_Run the script_**
 
 ```shell
 cd "C:\path\to\script\"
 .\Script.ps1 # optionally add arguments as required by the script ex. .\Script.ps1 -Argument1 "Value1" -Argument2 "Value2"
 ```
 
-Option two:
+**Option two:** _(Single script)_
   - Run the script from the command line (this will not change the execution policy)
 
-**Run the script from the command line, bypassing the execution policy**
+**_Run the script from the command line, bypassing the execution policy_**
 
 ```powershell
 Start-Process PowerShell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File C:\Path\To\Your\Script.ps1"
