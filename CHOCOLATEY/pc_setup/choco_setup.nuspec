@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>YourPackageName</id>
+    <version>1.0.0</version>
+    <title>VV_Choco_PC_Setup</title>
+    <authors>Vince Vasile</authors>
+    <owners>Vince Vasile</owners>
+    <projectUrl>https://github.com/VinnyVanGogh/Powershell_Scripts/tree/main</projectUrl>
+    <licenseUrl>https://github.com/VinnyVanGogh/Powershell_Scripts/tree/main/LICENSE</licenseUrl>
+    <iconUrl>choco_setup.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A comprehensive Chocolatey package for automating the setup of Windows PCs, streamlining the installation of essential software and configurations.</description>
+    <tags> chocolatey-package windows-automation software-configuration PC-setup system-administration software-installation</tags>
+    <summary>Your package summary</summary>
+  </metadata>
+  <files>
+    <file src="*.*" target="tools" />
+  </files>
+</package>
